@@ -28,8 +28,14 @@ The repository uses one CSV file, 'fk_movie_songs.csv', with one row per record.
 
 What each column means:
 *id* - Unique song identifier (song_filenameabbreviated_number) (string)
+
+
 *song_title* - Name of the song (string)
+
+
 *film_title* - Name of the movie the song is a part of (string)
+
+
 *film_year* - Year of the release of the movie (Integer)
 *singer* - Name of the singer, Names separated by semicolons ';' if more than one singer, may say 'Instrumental' or 'Multiple singers', Empty if unknown (string)
 *composer* - Composers, Names separated by semicolons ';' if more than one composer, Empty if unknown (string)
