@@ -37,12 +37,26 @@ What each column means:
 
 
 *film_year* - Year of the release of the movie (Integer)
+
+
 *singer* - Name of the singer, Names separated by semicolons ';' if more than one singer, may say 'Instrumental' or 'Multiple singers', Empty if unknown (string)
+
+
 *composer* - Composers, Names separated by semicolons ';' if more than one composer, Empty if unknown (string)
+
+
 *lyricist* - Lyricist, Names separated by semicolons ';' if more than one, Empty if unknown or not applicable (string)
+
+
 *source* - Album page used as a reference for the record, URL text, Apple Music album URL, Empty if coudnt find the right source (string)
+
+
 *licence* - ℗ notice shown on the cited commercial soundtrack album page; this is a rights notice, not an open reuse licence, Copyright line as shown on the source page, Empty if source is blank (string)
+
+
 *source_accessed* - 'YYYY-MM-DD', Empty if source is blank
+
+
 
 ## Uses and limitations
 
